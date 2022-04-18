@@ -1,0 +1,14 @@
+singleQuote: true
+trailingComma: es5
+formatOnSave: true
+overrides:
+  - files: ["*.yaml", "*.yml"]
+    options:
+      singleQuote: false
+  - files: ["*.ts", "*.tsx"]
+    options:
+      arrowParens: avoid # backward compatible with 1.19, 2.0 new default "always"
+      parser: typescript
+  - files: ["*.js"]
+    options:
+      arrowParens: avoid # backward compatible with 1.19, 2.0 new default "always"

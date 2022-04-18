@@ -1,0 +1,20 @@
+.AppointmentSchedulerContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.AppointmentSchedulerHeader {
+  align-items: flex-start;
+  background-color: #00b198;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  width: 100%;
+}
